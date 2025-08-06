@@ -102,6 +102,7 @@ services:
     name: eu-regwatch
     env: node
     plan: free
+    rootDir: .
     buildCommand: npm ci && npm run build
     startCommand: npm start
     envVars:
